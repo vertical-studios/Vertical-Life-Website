@@ -1,0 +1,197 @@
+{
+  "title": "Christian Coworking in Carmel | The Atrium | Vertical Life",
+  "description": "Faith-minded coworking on N Meridian St near Carmel. Memberships from $150 a month, dedicated desks, private offices and bookable meeting and event space.",
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "Vertical Life at the Atrium",
+      "headline": "Christian coworking in Carmel",
+      "body": "You were never meant to be two people: one version of you on Sunday, another on Monday. The Atrium is where those two finally meet, with businesses, nonprofits and community members working in the same building, on purpose.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/5ff03825-1a47-4ce1-ba76-86c1e5ed8f39/TheAtrium.png",
+      "imageAlt": "The Atrium at 10330 N Meridian St",
+      "buttons": [
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "primary"
+        },
+        {
+          "label": "See packages",
+          "href": "#packages",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "stats",
+      "tone": "dark",
+      "items": [
+        {
+          "value": "$150",
+          "label": "Memberships from, a month"
+        },
+        {
+          "value": "15",
+          "label": "Private offices available"
+        },
+        {
+          "value": "$10",
+          "label": "Per room credit for members"
+        },
+        {
+          "value": "3",
+          "label": "Bookable room types"
+        }
+      ]
+    },
+    {
+      "_template": "pricing",
+      "anchor": "packages",
+      "heading": "Packages and prices",
+      "tone": "dark",
+      "body": "Solo memberships for one person, and private offices for teams. Every package includes the community.",
+      "tiers": [
+        {
+          "name": "Tier 1",
+          "price": "$150",
+          "period": "a month",
+          "summary": "Coworking for one",
+          "features": [
+            "Unlimited coworking access",
+            "6 room credits every month",
+            "The community, seminars and workshops"
+          ],
+          "highlight": false,
+          "buttonLabel": "Visit the Atrium",
+          "buttonHref": "/visit"
+        },
+        {
+          "name": "Tier 2",
+          "price": "$400",
+          "period": "a month",
+          "summary": "Your own dedicated desk",
+          "features": [
+            "A desk that's yours every day",
+            "Unlimited coworking access",
+            "18 room credits every month"
+          ],
+          "highlight": false,
+          "buttonLabel": "Visit the Atrium",
+          "buttonHref": "/visit"
+        },
+        {
+          "name": "Private office",
+          "price": "$850",
+          "period": "a month",
+          "summary": "A lockable office for your team",
+          "features": [
+            "Private office, about 10 by 13 feet",
+            "Includes 3 team members",
+            "Add team members for $100 a month each",
+            "108 room credits every quarter"
+          ],
+          "highlight": true,
+          "buttonLabel": "Visit the Atrium",
+          "buttonHref": "/visit"
+        }
+      ],
+      "note": "Prices are per month. Every office comes with memberships, so you get the room and the community in one package."
+    },
+    {
+      "_template": "rooms",
+      "anchor": "rooms",
+      "heading": "Meeting rooms and credits",
+      "tone": "white",
+      "body": "Meeting rooms, the production studio and the performance space are open to anyone at public rates. Members book with credits instead of cash.",
+      "rows": [
+        {
+          "room": "Meeting rooms",
+          "use": "Trainings, workshops and team meetings",
+          "credits": "3",
+          "member": "$30",
+          "public": "$36"
+        },
+        {
+          "room": "Production studio",
+          "use": "Video, photo and podcast production",
+          "credits": "5",
+          "member": "$50",
+          "public": "$60"
+        },
+        {
+          "room": "Performance space",
+          "use": "Performances, events and large gatherings",
+          "credits": "10",
+          "member": "$100",
+          "public": "$125"
+        }
+      ],
+      "note": "Members book with credits at $10 each. Credits refresh monthly and don't roll over; add more anytime at $10 a credit. Production studio and performance space bookings follow our booking guidelines."
+    },
+    {
+      "_template": "imageText",
+      "heading": "Faith doesn't clock out at nine",
+      "tone": "dark",
+      "imageSide": "left",
+      "body": "Faith-led builders who show up for each other. Not a networking group. Not a small group. A working ecosystem.\n\nSeminars, workshops and the people who make both worth showing up for. Your next collaborator works down the hall.",
+      "bullets": [
+        "A community that shares your compass",
+        "Collaboration and learning opportunities",
+        "Rooms most offices don't have"
+      ],
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/b2f21589-e2e6-4e8d-b40c-06772017f1ae/Training+Room.jpg",
+      "imageAlt": "A meeting room at the Atrium"
+    },
+    {
+      "_template": "video",
+      "heading": "The next chapter of Vertical Life",
+      "tone": "dark",
+      "youtubeId": "mxf0x_e6fd4",
+      "videoTitle": "Welcome to the next chapter of Vertical Life"
+    },
+    {
+      "_template": "faq",
+      "heading": "Atrium questions",
+      "tone": "dark",
+      "items": [
+        {
+          "question": "How do room credits work?",
+          "answer": "Members book rooms with credits instead of cash. Each credit is $10. Credits refresh monthly and don't roll over, and you can add more anytime at $10 each."
+        },
+        {
+          "question": "Can non-members book a room?",
+          "answer": "Yes. Meeting rooms, the production studio and the performance space are open to anyone at public rates: $36, $60 and $125 an hour."
+        },
+        {
+          "question": "How big are the private offices?",
+          "answer": "Each lockable office is about 10 by 13 feet. The $850 package includes 3 team members, and you can add more for $100 a month each."
+        },
+        {
+          "question": "Are there conference rooms?",
+          "answer": "Our former conference rooms are now meeting rooms, booked with credits like the rest."
+        },
+        {
+          "question": "How do I tour the space?",
+          "answer": "Fill out the form on the [visit page](/visit). We'll email the pricing sheet, text you within 2 hours, and send a link to book your tour."
+        },
+        {
+          "question": "Where is the Atrium?",
+          "answer": "10330 N Meridian St, Suite 300, Indianapolis, IN 46290, on N Meridian near Carmel."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Come and see",
+      "tone": "yellow",
+      "body": "Membership starts with a conversation, not a contract. Walk the space, meet a few people and decide whether this is the room you've been looking for.",
+      "buttons": [
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "primary"
+        }
+      ]
+    }
+  ]
+}

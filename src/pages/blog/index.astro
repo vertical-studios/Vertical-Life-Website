@@ -1,0 +1,73 @@
+---
+import { getEntry } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import PostCard from "../../components/PostCard.astro";
+import { getPosts, postUrl } from "../../lib/posts";
+import { CATEGORIES } from "../../content.config";
+
+const settings = (await getEntry("settings", "site"))!.data as any;
+const posts = await getPosts();
+const used = CATEGORIES.filter((c) => posts.some((p) => p.data.category === c));
+const site = "https://thevertical.life";
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  name: "Vertical Life Blog",
+  url: `${site}/blog`,
+  publisher: { "@type": "Organization", "@id": `${site}/#organization`, name: "Vertical Life", url: site },
+  blogPost: posts.map((p) => ({
+    "@type": "BlogPosting",
+    headline: p.data.title,
+    url: `${site}${postUrl(p)}`,
+    datePublished: p.data.date.toISOString(),
+  })),
+};
+---
+<Base
+  title="Faith, Work and Leadership: The Blog | Vertical Life"
+  description="Articles on connecting faith and work, leading well and working at the Atrium, from Vertical Life in Carmel, Indiana."
+  settings={settings}
+  schema={schema}
+>
+  <section class="intro grain slant-bottom">
+    <div class="wrap">
+      <p class="tag">Vertical Life blog</p>
+      <h1>Faith, work and leadership</h1>
+      <p class="lede">Practical reading for Kingdom-minded business owners, nonprofit leaders and believers who want their work to matter.</p>
+    </div>
+  </section>
+
+  <section class="section list" aria-labelledby="all-articles">
+    <div class="wrap">
+      <h2 id="all-articles" class="sr-only">All articles</h2>
+      {used.length > 1 && (
+        <div class="filters" role="group" aria-label="Filter by topic">
+          <button class="chip" aria-pressed="true" data-filter="all">All</button>
+          {used.map((c) => <button class="chip" aria-pressed="false" data-filter={c}>{c}</button>)}
+        </div>
+      )}
+      <div class="grid">{posts.map((p) => <PostCard post={p} />)}</div>
+      {posts.length === 0 && <p>New articles are on the way.</p>}
+    </div>
+  </section>
+</Base>
+
+<script>
+  const chips = document.querySelectorAll<HTMLButtonElement>(".chip");
+  const cards = document.querySelectorAll<HTMLElement>(".grid > article");
+  chips.forEach((chip) =>
+    chip.addEventListener("click", () => {
+      const f = chip.dataset.filter;
+      chips.forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+      cards.forEach((card) => (card.hidden = f !== "all" && card.dataset.category !== f));
+    })
+  );
+</script>
+
+<style>
+  .intro { padding-block: clamp(64px, 9vw, 112px) clamp(88px, 11vw, 140px); }
+  .filters { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 32px; }
+  .chip { min-height: 44px; border: 2px solid var(--white); background: transparent; padding: 8px 16px 6px; font: 600 1.25rem/1 var(--display); letter-spacing: var(--track); cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--yellow); border-color: var(--yellow); color: var(--black); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 32px; }
+</style>

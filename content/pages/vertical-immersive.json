@@ -1,0 +1,82 @@
+{
+  "title": "Vertical Immersive | Higher Education Reimagined | Vertical Life",
+  "description": "Vertical Immersive is a two-year, debt-free, Christ-centered program where young adults discover how God wired them and do real work for real businesses.",
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "Vertical Immersive",
+      "headline": "Higher education, rebuilt around calling",
+      "body": "A two-year, debt-free, Christ-centered program where young adults start their first semester doing real work for real businesses.",
+      "buttons": [
+        {
+          "label": "Visit Vertical Immersive",
+          "href": "https://www.verticalimmersive.life/",
+          "style": "primary"
+        },
+        {
+          "label": "Book a tour",
+          "href": "https://www.verticalimmersive.life/tour",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "richText",
+      "heading": "Where the next generation gets formed",
+      "tone": "white",
+      "body": "Vertical Immersive is the education arm of Vertical Life. Instead of four years and a stack of loans, students spend two years discovering how God wired them and building a learning path around it.\n\nLearning happens through real work, mentors and discipleship. In year two, students have the opportunity to secure a paid apprenticeship of their own.\n\n**They graduate with real experience, a professional network and a faith that holds up under pressure.**",
+      "buttons": [
+        {
+          "label": "Explore the ecosystem",
+          "href": "/ecosystem",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "cards",
+      "heading": "What makes it different",
+      "style": "plain",
+      "tone": "dark",
+      "items": [
+        {
+          "title": "Discipleship first",
+          "body": "Spiritual growth is the foundation, not an elective."
+        },
+        {
+          "title": "Real work, day one",
+          "body": "Students do real work for real businesses from their first semester, including the Vertical companies."
+        },
+        {
+          "title": "Mentors, not lectures",
+          "body": "Learn from leaders and business owners who do the work every day."
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Visit Vertical Immersive",
+          "href": "https://www.verticalimmersive.life/",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "See what students are up to",
+      "tone": "yellow",
+      "body": "Explore programs, tours and admissions on the Vertical Immersive site, or book a tour to see it for yourself.",
+      "buttons": [
+        {
+          "label": "Book a tour",
+          "href": "https://www.verticalimmersive.life/tour",
+          "style": "primary"
+        },
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "secondary"
+        }
+      ]
+    }
+  ]
+}

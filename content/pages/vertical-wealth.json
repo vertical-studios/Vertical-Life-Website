@@ -1,0 +1,82 @@
+{
+  "title": "Vertical Wealth | Kingdom-Minded Stewardship | Vertical Life",
+  "description": "Vertical Wealth offers Kingdom-minded financial planning that helps believers live boldly, give generously and leave a legacy, with a biblical lens.",
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "Vertical Wealth",
+      "headline": "Wealth with purpose beyond the balance",
+      "body": "Kingdom-minded financial planning that helps believers live boldly, give generously and leave a legacy.",
+      "buttons": [
+        {
+          "label": "Visit Vertical Wealth",
+          "href": "https://www.verticalwealth.life/",
+          "style": "primary"
+        },
+        {
+          "label": "Schedule a discovery call",
+          "href": "/contact",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "richText",
+      "heading": "Stewardship, made practical",
+      "tone": "white",
+      "body": "Vertical Wealth is the financial planning arm of Vertical Life. Plenty of Christians want to give boldly but get stuck on old 401(k)s, taxes, college costs and the question nobody answers: how much is enough?\n\nVertical Wealth pairs professional planning with a biblical lens, so families can decide with confidence and put their resources to work for eternity.\n\n**The goal is a journey of growth, where clarity replaces confusion, purpose replaces fear and legacy replaces limitation.**",
+      "buttons": [
+        {
+          "label": "Explore the ecosystem",
+          "href": "/ecosystem",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "cards",
+      "heading": "Clarity, confidence and calling",
+      "style": "plain",
+      "tone": "dark",
+      "items": [
+        {
+          "title": "Clarity",
+          "body": "See your finances clearly through a biblical lens."
+        },
+        {
+          "title": "Confidence",
+          "body": "Make decisions without anxiety, hands-on or hands-off."
+        },
+        {
+          "title": "Calling",
+          "body": "Deploy what you have for Kingdom impact."
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Visit Vertical Wealth",
+          "href": "https://www.verticalwealth.life/",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Bigger barns, or heavenly treasure?",
+      "tone": "yellow",
+      "body": "Explore services and meet the team on the Vertical Wealth site, or schedule a discovery call and start with a conversation.",
+      "buttons": [
+        {
+          "label": "Schedule a discovery call",
+          "href": "/contact",
+          "style": "primary"
+        },
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "secondary"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "title": "Vertical Life | Faith, Work and Purpose in Carmel, Indiana",
+  "description": "One home for Kingdom-minded work in Carmel: coworking, desks and private offices at the Atrium, plus the Vertical companies that help you learn, grow and lead.",
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "Vertical Life at the Atrium",
+      "headline": "Connect faith, work and purpose",
+      "body": "One home for Kingdom-minded work in Carmel: coworking and offices at the Atrium, plus the Vertical companies that help you learn, grow and lead.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/08f97603-b66a-4472-bd1f-05e33ea7af5f/VLpeople.png",
+      "imageAlt": "People from our community",
+      "buttons": [
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "primary"
+        },
+        {
+          "label": "Explore the ecosystem",
+          "href": "/ecosystem",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "hub",
+      "heading": "One ecosystem, four ways in",
+      "body": "Work at the Atrium, or find the Vertical company built for where you are.",
+      "tone": "dark",
+      "tiles": [
+        {
+          "title": "The Atrium",
+          "text": "Coworking, dedicated desks and private offices for Kingdom-minded businesses and nonprofits.",
+          "href": "/the-atrium",
+          "linkLabel": "See the Atrium",
+          "highlight": true
+        },
+        {
+          "title": "Vertical Immersive",
+          "text": "Higher education reimagined: a two-year program that prepares young adults to lead through faith-driven study and mentorship.",
+          "href": "/vertical-immersive"
+        },
+        {
+          "title": "Vertical Wealth",
+          "text": "Kingdom-minded financial growth and stewardship that helps believers align their resources with purpose.",
+          "href": "/vertical-wealth"
+        },
+        {
+          "title": "Vertical Studios",
+          "text": "A creative hub for media, content and marketing that helps faith-based voices tell their stories with excellence.",
+          "href": "/vertical-studios"
+        }
+      ]
+    },
+    {
+      "_template": "pricing",
+      "anchor": "packages",
+      "heading": "Pick your place at the Atrium",
+      "tone": "dark",
+      "body": "One version of you on Sunday, another on Monday. The Atrium is where those two finally meet. Every package includes the community.",
+      "tiers": [
+        {
+          "name": "Tier 1",
+          "price": "$150",
+          "period": "a month",
+          "summary": "Coworking for one",
+          "features": [
+            "Unlimited coworking access",
+            "6 room credits every month",
+            "The community, seminars and workshops"
+          ],
+          "highlight": false,
+          "buttonLabel": "Visit the Atrium",
+          "buttonHref": "/visit"
+        },
+        {
+          "name": "Tier 2",
+          "price": "$400",
+          "period": "a month",
+          "summary": "Your own dedicated desk",
+          "features": [
+            "A desk that's yours every day",
+            "Unlimited coworking access",
+            "18 room credits every month"
+          ],
+          "highlight": false,
+          "buttonLabel": "Visit the Atrium",
+          "buttonHref": "/visit"
+        },
+        {
+          "name": "Private office",
+          "price": "$850",
+          "period": "a month",
+          "summary": "A lockable office for your team",
+          "features": [
+            "Private office, about 10 by 13 feet",
+            "Includes 3 team members",
+            "Add team members for $100 a month each",
+            "108 room credits every quarter"
+          ],
+          "highlight": true,
+          "buttonLabel": "Visit the Atrium",
+          "buttonHref": "/visit"
+        }
+      ],
+      "note": "Prices are per month. 15 private offices are available."
+    },
+    {
+      "_template": "rooms",
+      "anchor": "rooms",
+      "heading": "Rooms most offices don't have",
+      "tone": "white",
+      "body": "Meeting rooms, a production studio and a performance space, on site. Members book with credits; anyone can book at public rates.",
+      "rows": [
+        {
+          "room": "Meeting rooms",
+          "use": "Trainings, workshops and team meetings",
+          "credits": "3",
+          "member": "$30",
+          "public": "$36"
+        },
+        {
+          "room": "Production studio",
+          "use": "Video, photo and podcast production",
+          "credits": "5",
+          "member": "$50",
+          "public": "$60"
+        },
+        {
+          "room": "Performance space",
+          "use": "Performances, events and large gatherings",
+          "credits": "10",
+          "member": "$100",
+          "public": "$125"
+        }
+      ],
+      "note": "Members book with credits at $10 each. Credits refresh monthly and don't roll over; add more anytime at $10 a credit. Production studio and performance space bookings follow our booking guidelines."
+    },
+    {
+      "_template": "imageText",
+      "heading": "Faith doesn't clock out at nine",
+      "tone": "dark",
+      "imageSide": "right",
+      "body": "You've sat in the meeting where you softened a conviction to keep things comfortable. You've prayed about a decision alone, then made it alone.\n\n**That is normal. It is not necessary.** The Atrium puts faith-led builders in one building, so the person who shares your compass works down the hall.",
+      "bullets": [
+        "A community that shares your compass",
+        "Seminars, workshops and collaboration",
+        "Room to grow, from one desk to a team office"
+      ],
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/ff78a2fd-536b-4d12-8173-fdb0e8ebf84a/Event+Space.jpg",
+      "imageAlt": "The event space at the Atrium",
+      "buttons": [
+        {
+          "label": "See the Atrium",
+          "href": "/the-atrium",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "imageText",
+      "heading": "Why Vertical Life exists",
+      "tone": "white",
+      "imageSide": "left",
+      "body": "People flourish when faith, purpose and work are integrated rather than separated, and people grow best in community, not isolation.\n\nVertical Life connects a family of Kingdom-minded companies under one roof: education through **Vertical Immersive**, financial stewardship through **Vertical Wealth**, and media and marketing through **Vertical Studios**. The Atrium gives that ecosystem a physical home.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/7cf58ec6-e2cb-4372-87cf-f7c335c7ff9a/mountainteambw2.jpg",
+      "imageAlt": "Vertical Life team members",
+      "buttons": [
+        {
+          "label": "Explore the ecosystem",
+          "href": "/ecosystem",
+          "style": "primary"
+        },
+        {
+          "label": "Who we are",
+          "href": "/about",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "cards",
+      "anchor": "values",
+      "heading": "Live these values boldly",
+      "style": "plain",
+      "tone": "dark",
+      "body": "Live these values boldly, and you'll watch every part of your life expand in clarity, purpose and real impact.",
+      "items": [
+        {
+          "title": "Intention",
+          "body": "We live purposefully rooted in faith to honor the Lord."
+        },
+        {
+          "title": "Service",
+          "body": "We have a servant's heart for generosity and excellence."
+        },
+        {
+          "title": "Innovation",
+          "body": "We pursue creativity and progress while embracing new ideas and approaches as image bearers of our Creator."
+        },
+        {
+          "title": "Transformation",
+          "body": "We are storytellers of growth to a more abundant life in Christ."
+        },
+        {
+          "title": "Achievement",
+          "body": "We accomplish immeasurably more according to His power at work within us."
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Our values",
+          "href": "/about#values",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "cards",
+      "heading": "Resources to grow deeper",
+      "style": "boxed",
+      "tone": "dark",
+      "body": "Free tools from Vertical Life for your faith, your work and your leadership.",
+      "items": [
+        {
+          "eyebrow": "Free download",
+          "title": "The Spiritual Fitcheck",
+          "body": "A simple check-in on where you are with God and where you want to grow.",
+          "linkLabel": "Download the Fitcheck",
+          "linkHref": "https://www.thevertical.life/s/Spiritual-Fitcheck.pdf"
+        },
+        {
+          "eyebrow": "Free download",
+          "title": "The Vertical Framework",
+          "body": "The framework behind how Vertical Life connects faith, work and purpose.",
+          "linkLabel": "Download the Framework",
+          "linkHref": "https://www.thevertical.life/s/The-Vertical-Framework.pdf"
+        },
+        {
+          "eyebrow": "Podcast",
+          "title": "Learn about our values",
+          "body": "Conversations on living the five Vertical values at work and at home.",
+          "linkLabel": "Watch on YouTube",
+          "linkHref": "https://youtu.be/wE1yptUZSuQ"
+        }
+      ],
+      "buttons": [
+        {
+          "label": "All resources",
+          "href": "/resources",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "video",
+      "heading": "Experience the vision",
+      "tone": "dark",
+      "youtubeId": "dcLDJXDO4AI",
+      "videoTitle": "Vertical Life's vision",
+      "body": "As the ecosystem grows and new partners rise with us, the Atrium is the next faithful step: a physical home for Vertical Life."
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Come see the Atrium",
+      "tone": "yellow",
+      "body": "Every package and price is on the Atrium page. Plan a visit and we'll send the pricing sheet and a link to book your tour.",
+      "buttons": [
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "primary"
+        },
+        {
+          "label": "See packages",
+          "href": "/the-atrium#packages",
+          "style": "secondary"
+        }
+      ]
+    }
+  ]
+}

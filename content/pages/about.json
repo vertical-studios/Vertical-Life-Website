@@ -1,0 +1,152 @@
+{
+  "title": "Who We Are and Our Values | Vertical Life",
+  "description": "Meet the team behind Vertical Life, read our founder story and explore the five values that help believers live Monday through Sunday as followers of Christ.",
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "Who we are",
+      "headline": "Living vertically aligned with God",
+      "body": "Empowering believers to connect faith, purpose and work in every sphere of life, Monday through Sunday.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/7cf58ec6-e2cb-4372-87cf-f7c335c7ff9a/mountainteambw2.jpg",
+      "imageAlt": "Vertical Life team members",
+      "buttons": [
+        {
+          "label": "Our values",
+          "href": "#values",
+          "style": "primary"
+        },
+        {
+          "label": "Explore the ecosystem",
+          "href": "/ecosystem",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "richText",
+      "heading": "Born in a place of surrender",
+      "tone": "dark",
+      "body": "**Vertical Life was born in a place of surrender: a moment when I finally recognized that everything we have truly belongs to God.**\n\nOur time, our talent, our treasure…all His. At the end of myself, I simply said, *“Here I am, Lord. Use me.”* And God answered!\n\nHe showed me how I had once poured my ambition into building my own kingdom, and how He now wanted to redeem that same drive to build and expand His.\n\nThen He handed me a God-sized, impossible calling, one I could never accomplish alone, and that's the journey that brought us here.\n\n**Brian Wheeler, Chief Vision Officer**"
+    },
+    {
+      "_template": "video",
+      "heading": "The vision behind Vertical Life",
+      "tone": "dark",
+      "youtubeId": "dcLDJXDO4AI",
+      "videoTitle": "Vertical Life's vision",
+      "body": "Watch the vision behind Vertical Life."
+    },
+    {
+      "_template": "imageText",
+      "heading": "What is Kingdom building?",
+      "tone": "dark",
+      "imageSide": "right",
+      "body": "**To live with a Kingdom-building mindset is to live awake.** It's the person who cares deeply, serves generously, forgives quickly and builds steadily, even when no one notices.\n\nThey look for God's hand in their work, relationships, opportunities and challenges. They don't chase influence; they cultivate it.\n\nAs they align each sphere of their life with God's values, their presence naturally shapes the world around them. Vertical Life exists to guide people into that kind of intentional, transformative life.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/1763581008697-BJ0W79KDZNRG7CACW5XU/unsplash-image-HtwsbbClBOs.jpg",
+      "imageAlt": "A group of people with raised hands during a gathering"
+    },
+    {
+      "_template": "imageText",
+      "heading": "Following Christ, Monday through Sunday",
+      "tone": "white",
+      "imageSide": "left",
+      "body": "At Vertical Life, we believe all our work should glorify God. Our Monday through Friday lives should flow into our Sundays, creating a lifestyle of sacrifice for the Kingdom of God.\n\nMost believers live with their faith inside a box. At Vertical, we believe that when it comes to faith, **there is no box**. Our faith should define our approach to our career focus, our finances and our family.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/7d4307ef-2952-4c78-b046-ac26dfcef901/VL+Ecosystem+Graphic+FINAL.png",
+      "imageAlt": "Comparison graphic of an unaligned life as a collapsed mountain and a vertical life as an ascending mountain, with faith, family, career, finances, health, relationships, education, recreation, service and spiritual growth",
+      "buttons": [
+        {
+          "label": "Download the Vertical Framework",
+          "href": "https://www.thevertical.life/s/The-Vertical-Framework.pdf",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "_template": "cards",
+      "anchor": "values",
+      "heading": "Our values",
+      "style": "plain",
+      "tone": "dark",
+      "body": "Live these values boldly, and you'll watch every part of your life expand in clarity, purpose and real impact. Your work becomes worship. Your struggles become stories. Your ordinary days start carrying eternal weight. How are you living according to your faith?",
+      "items": [
+        {
+          "title": "Intention",
+          "body": "We live purposefully rooted in faith to honor the Lord."
+        },
+        {
+          "title": "Service",
+          "body": "We have a servant's heart for generosity and excellence."
+        },
+        {
+          "title": "Innovation",
+          "body": "We pursue creativity and progress while embracing new ideas and approaches as image bearers of our Creator."
+        },
+        {
+          "title": "Transformation",
+          "body": "We are storytellers of growth to a more abundant life in Christ."
+        },
+        {
+          "title": "Achievement",
+          "body": "We accomplish immeasurably more according to His power at work within us."
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Download the Spiritual Fitcheck",
+          "href": "https://www.thevertical.life/s/Spiritual-Fitcheck.pdf",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "cards",
+      "heading": "Meet the team at Vertical Life",
+      "style": "boxed",
+      "tone": "dark",
+      "items": [
+        {
+          "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/973eec2c-2d61-46d1-8b22-fefb2488bc53/14+%281%29.jpg",
+          "imageAlt": "Brian Wheeler",
+          "title": "Brian Wheeler",
+          "body": "Chief Vision Officer"
+        },
+        {
+          "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/e3e479df-3eb4-42af-946d-475535285a76/11+%281%29.jpg",
+          "imageAlt": "Susan Rozzi",
+          "title": "Susan Rozzi",
+          "body": "Chief Executive Officer"
+        },
+        {
+          "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/5f6c87ad-ac29-41c9-adf3-9e9dbeb1bca5/03+%281%29.jpg",
+          "imageAlt": "Kaitlyn Smith",
+          "title": "Kaitlyn Smith",
+          "body": "Chief Operating Officer"
+        }
+      ]
+    },
+    {
+      "_template": "verse",
+      "tone": "dark",
+      "text": "Now to him who is able to do immeasurably more than all we ask or imagine, according to his power that is at work within us",
+      "reference": "Ephesians 3:20"
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Join us for Kingdom impact",
+      "tone": "yellow",
+      "body": "Ephesians 3:20 isn't just a nice idea; it's a promise we're watching come true, over and over. Come see the Atrium, or find your place in the ecosystem.",
+      "buttons": [
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "primary"
+        },
+        {
+          "label": "Get involved",
+          "href": "/get-involved",
+          "style": "secondary"
+        }
+      ]
+    }
+  ]
+}

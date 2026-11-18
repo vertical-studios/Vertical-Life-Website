@@ -1,0 +1,82 @@
+{
+  "title": "Vertical Studios | Kingdom-Minded Marketing | Vertical Life",
+  "description": "Senior-led, apprentice-powered marketing for Kingdom-minded businesses and nonprofits: strategy, design, content, websites and campaigns, all in one team.",
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "Vertical Studios",
+      "headline": "Kingdom-minded marketing for Kingdom-minded businesses",
+      "body": "A full marketing team, led by senior marketers and powered by apprentices training for a life of purpose.",
+      "buttons": [
+        {
+          "label": "Visit Vertical Studios",
+          "href": "https://www.verticalstudios.life/",
+          "style": "primary"
+        },
+        {
+          "label": "Schedule a discovery call",
+          "href": "/contact",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "richText",
+      "heading": "Your growth funds their calling",
+      "tone": "white",
+      "body": "Vertical Studios is the creative and marketing arm of Vertical Life. Businesses and nonprofits get strategy, design, content, websites and campaigns run by experienced marketers.\n\nBehind them, [Vertical Immersive](/vertical-immersive) apprentices handle production under direct supervision, doing real work with real stakes.",
+      "buttons": [
+        {
+          "label": "Explore the ecosystem",
+          "href": "/ecosystem",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "cards",
+      "heading": "Senior-led, apprentice-powered, full-service",
+      "style": "plain",
+      "tone": "dark",
+      "items": [
+        {
+          "title": "Senior-led",
+          "body": "Run by marketers with agency, nonprofit and in-house backgrounds."
+        },
+        {
+          "title": "Apprentice-powered",
+          "body": "A full production crew learning the craft by doing it."
+        },
+        {
+          "title": "Full-service",
+          "body": "Social, web, design, video, strategy and marketing automation."
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Visit Vertical Studios",
+          "href": "https://www.verticalstudios.life/",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Elevate your business",
+      "tone": "yellow",
+      "body": "Empower the next generation while you grow. See services, past work and the team on the Vertical Studios site, or schedule a discovery call.",
+      "buttons": [
+        {
+          "label": "Schedule a discovery call",
+          "href": "/contact",
+          "style": "primary"
+        },
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "secondary"
+        }
+      ]
+    }
+  ]
+}

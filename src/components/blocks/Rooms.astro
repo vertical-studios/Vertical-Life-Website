@@ -1,0 +1,44 @@
+---
+import Buttons from "../Buttons.astro";
+import { tf } from "../../lib/tina";
+import { toneClass } from "../../lib/tone";
+const { heading, body, rows = [], note, buttons, tone, anchor } = Astro.props;
+---
+<section class:list={["section rooms", toneClass(tone)]} id={anchor || undefined} data-tina-field={tf(Astro.props)}>
+  <div class="wrap">
+    {heading && <h2 data-tina-field={tf(Astro.props, "heading")}>{heading}</h2>}
+    {body && <p class="lede" data-tina-field={tf(Astro.props, "body")}>{body}</p>}
+    <div class="table" role="table" aria-label={heading || "Room rates"}>
+      <div class="row head" role="row">
+        <span role="columnheader">Room</span><span role="columnheader">Credits an hour</span><span role="columnheader">Members</span><span role="columnheader">Public</span>
+      </div>
+      {rows?.map((r: any) => (
+        <div class="row" role="row" data-tina-field={tf(r)}>
+          <span role="cell" class="room"><b data-tina-field={tf(r, "room")}>{r.room}</b>{r.use && <small data-tina-field={tf(r, "use")}>{r.use}</small>}</span>
+          <span role="cell" data-label="Credits an hour" data-tina-field={tf(r, "credits")}>{r.credits}</span>
+          <span role="cell" data-label="Members" data-tina-field={tf(r, "member")}>{r.member}</span>
+          <span role="cell" data-label="Public" data-tina-field={tf(r, "public")}>{r.public}</span>
+        </div>
+      ))}
+    </div>
+    {note && <p class="note" data-tina-field={tf(Astro.props, "note")}>{note}</p>}
+    <Buttons buttons={buttons} />
+  </div>
+</section>
+<style>
+  .table { margin-top: 40px; border-top: 2px solid currentColor; }
+  .row { display: grid; grid-template-columns: 2.2fr 1fr 1fr 1fr; gap: 16px; align-items: center; padding: 18px 0; border-bottom: 2px solid currentColor; font-variant-numeric: tabular-nums; }
+  .head { font: 600 1.3rem/1 var(--display); letter-spacing: var(--track); color: var(--yellow); }
+  .on-white .head, .on-yellow .head { color: inherit; }
+  .row span:not(.room) { font: 600 1.9rem/1 var(--display); letter-spacing: var(--track); }
+  .room b { display: block; font: 600 1.8rem/1 var(--display); letter-spacing: var(--track); }
+  .room small { display: block; font-size: 0.95rem; margin-top: 4px; }
+  .note { margin-top: 24px; font-size: 0.95rem; max-width: 70ch; }
+  @media (max-width: 640px) {
+    .head { display: none; }
+    .row { grid-template-columns: repeat(3, 1fr); gap: 10px 12px; }
+    .room { grid-column: 1 / -1; }
+    .row span:not(.room) { font-size: 1.6rem; }
+    .row span[data-label]::before { content: attr(data-label); display: block; font: 500 0.78rem/1.2 var(--body); letter-spacing: 0; margin-bottom: 4px; }
+  }
+</style>

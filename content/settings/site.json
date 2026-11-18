@@ -1,0 +1,206 @@
+{
+  "logo": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/375f3854-3eb0-4eea-9c20-f84e2037de9e/VL+white+bold+yellow+horizontal.png?format=750w",
+  "logoStacked": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/21ead9c1-d62a-4c8b-aada-98b1247aa6ed/VL+white+bold+yellow+stacked.png?format=500w",
+  "favicon": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/1713899586054-01L46D1JZYEGPZW8ABQO/favicon.ico?format=100w",
+  "ogImage": "https://static1.squarespace.com/static/6628083a88405b4d0f29bf6f/t/6af5c75ab3149e5db1f04f35/1794492250165/VL+white+bold+yellow+horizontal.png?format=1500w",
+  "nav": [
+    {
+      "label": "The Atrium",
+      "links": [
+        {
+          "label": "Overview",
+          "href": "/the-atrium"
+        },
+        {
+          "label": "Packages and prices",
+          "href": "/the-atrium#packages"
+        },
+        {
+          "label": "Meeting rooms and credits",
+          "href": "/the-atrium#rooms"
+        },
+        {
+          "label": "Events and venue",
+          "href": "/events-venue"
+        },
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit"
+        }
+      ]
+    },
+    {
+      "label": "Ecosystem",
+      "links": [
+        {
+          "label": "What's the ecosystem?",
+          "href": "/ecosystem"
+        },
+        {
+          "label": "Vertical Immersive",
+          "href": "/vertical-immersive"
+        },
+        {
+          "label": "Vertical Wealth",
+          "href": "/vertical-wealth"
+        },
+        {
+          "label": "Vertical Studios",
+          "href": "/vertical-studios"
+        }
+      ]
+    },
+    {
+      "label": "Resources",
+      "links": [
+        {
+          "label": "Downloads and podcasts",
+          "href": "/resources"
+        },
+        {
+          "label": "Blog",
+          "href": "/blog"
+        }
+      ]
+    },
+    {
+      "label": "About",
+      "links": [
+        {
+          "label": "Who we are",
+          "href": "/about"
+        },
+        {
+          "label": "Our values",
+          "href": "/about#values"
+        },
+        {
+          "label": "Get involved",
+          "href": "/get-involved"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact"
+        }
+      ]
+    }
+  ],
+  "navCta": {
+    "label": "Visit the Atrium",
+    "short": "Visit",
+    "href": "/visit"
+  },
+  "tagline": "Achieving Immeasurably More",
+  "verse": "Ephesians 3:20",
+  "address": "10330 N Meridian St, Ste 300, Indianapolis, IN 46290",
+  "phone": "317-779-2497",
+  "email": "hello@thevertical.life",
+  "footerLinks": [
+    {
+      "section": "The Atrium",
+      "label": "Packages and prices",
+      "href": "/the-atrium#packages"
+    },
+    {
+      "section": "The Atrium",
+      "label": "Meeting rooms",
+      "href": "/the-atrium#rooms"
+    },
+    {
+      "section": "The Atrium",
+      "label": "Events and venue",
+      "href": "/events-venue"
+    },
+    {
+      "section": "The Atrium",
+      "label": "Visit the Atrium",
+      "href": "/visit"
+    },
+    {
+      "section": "Ecosystem",
+      "label": "What's the ecosystem?",
+      "href": "/ecosystem"
+    },
+    {
+      "section": "Ecosystem",
+      "label": "Vertical Immersive",
+      "href": "/vertical-immersive"
+    },
+    {
+      "section": "Ecosystem",
+      "label": "Vertical Wealth",
+      "href": "/vertical-wealth"
+    },
+    {
+      "section": "Ecosystem",
+      "label": "Vertical Studios",
+      "href": "/vertical-studios"
+    },
+    {
+      "section": "Learn",
+      "label": "Resources",
+      "href": "/resources"
+    },
+    {
+      "section": "Learn",
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "section": "Learn",
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "section": "Learn",
+      "label": "Get involved",
+      "href": "/get-involved"
+    },
+    {
+      "section": "Learn",
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "social": [
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/VerticalLifeOfficial/"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/verticallifeofficial"
+    },
+    {
+      "label": "YouTube",
+      "href": "https://www.youtube.com/@theverticallife"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/company/vertical-life-official/"
+    }
+  ],
+  "legal": [
+    {
+      "label": "Privacy policy",
+      "href": "/privacy"
+    }
+  ],
+  "family": [
+    {
+      "label": "Vertical Immersive",
+      "href": "https://www.verticalimmersive.life/",
+      "logo": "https://images.squarespace-cdn.com/content/v1/667c450ccef1c76b7cebfd4c/2e824f74-41c8-4889-ba82-b4ec779676ad/VI+white+bold+yellow+horizontal.png?format=750w"
+    },
+    {
+      "label": "Vertical Wealth",
+      "href": "https://www.verticalwealth.life/",
+      "logo": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/c61507fa-ebab-4c81-9ddf-7d704fdd3902/VW+white+bold+yellow+horizontal.png?format=750w"
+    },
+    {
+      "label": "Vertical Studios",
+      "href": "https://www.verticalstudios.life/",
+      "logo": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/3d25ed0c-15fb-421e-9725-f759edebcb04/VS+white+bold+yellow+horizontal.png?format=750w"
+    }
+  ]
+}

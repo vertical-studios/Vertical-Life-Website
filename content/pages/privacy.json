@@ -1,0 +1,38 @@
+{
+  "title": "Privacy Policy | Vertical Life",
+  "description": "Review Vertical Life's privacy policy: contact forms, cookies, analytics, text messaging, your data rights, security measures and our terms of service.",
+  "noindex": false,
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "Vertical Life",
+      "headline": "Privacy policy",
+      "body": "How Vertical Life collects, uses and protects your information when you use this website, fill out our forms or receive text messages from us.",
+      "buttons": []
+    },
+    {
+      "_template": "richText",
+      "anchor": "policy",
+      "tone": "white",
+      "body": "**Effective Date:** July 3, 2025\n\nThis website is operated by Vertical Life. In this policy, \"we,\" \"us\" and \"our\" mean Vertical Life. Our website address is: [https://thevertical.life](https://thevertical.life/)\n\n##Who we are\n\nVertical Life is a Kingdom-minded ecosystem and the parent brand of Vertical Immersive, Vertical Wealth and Vertical Studios, with the Atrium at 10330 N Meridian St, Suite 300, Indianapolis, IN 46290 as its physical home. This policy covers this website and the forms and text messaging we offer through it.\n\n##Contact forms\n\nWhen you submit information through a contact form on our website, we collect your name, email address, and any other information you provide. This information is used to respond to inquiries, deliver services, and improve our customer experience.\n\n##Cookies\n\nWe use cookies to enhance your experience on our site.\n\n- If you leave a comment or fill out a form, you may opt in to saving your name and email address in cookies for convenience. These last up to one year.\n- If you log into any protected area of the site (if applicable), we set a temporary cookie to determine your browser's compatibility and may store your login preferences.\n- Editing or publishing content may set a cookie in your browser; this contains no personal data and expires in 1 day.\n\n##Embedded content from other websites\n\nContent on this site may include embedded videos, images, or links from other websites (e.g., Vimeo, YouTube, Instagram). Embedded content behaves as if you visited that site directly and may collect data about you, use cookies, and monitor your interaction with that content.\n\n##Analytics\n\nWe use website analytics tools (e.g., Google Analytics) to monitor site performance and improve user experience. These tools may collect anonymized data including location, device type, and on-site behavior.\n\n##Who we share your data with\n\nWe do **not** sell or share your personal data with third-party marketers.\n\nYour data may be shared with internal team members and trusted partners only for operational, analytical, or communication purposes.\n\nWe do **not** transfer data to external organizations without your explicit consent, except as required by law.\n\n##How long we retain your data\n\nIf you fill out a form or request a consultation, your submission and its metadata may be stored indefinitely. This allows us to track conversations and support your ongoing needs.\n\nIf we offer account logins or content submissions, your data will be stored securely in accordance with your user profile.\n\n##Your rights over your data\n\nIf you have interacted with us through this site, you can request:\n\n- A copy of the personal data we hold about you\n- That we delete your data (excluding information required for legal or operational purposes)\n\nPlease email us at **[hello@thevertical.life](mailto:hello@thevertical.life)** with your request.\n\n##Where we send your data\n\nYour data may be reviewed through spam filtering software or other automated systems.\n\nWe limit access to your data to authorized personnel only.\n\nAll data is stored securely and may be encrypted during transmission or storage.\n\n##Text messaging\n\nWe may use SMS (text messaging) to communicate with you if you have opted in via our website or service forms.\n\nBy texting or replying to keywords (e.g., \"START,\" \"YES,\" or \"HELLO\"), you agree to receive messages about project updates, meeting reminders, or marketing services. Message frequency may vary.\n\n**Message and data rates may apply.**\n\nYou may opt out at any time by replying **STOP** to a text or by emailing **[hello@thevertical.life](mailto:hello@thevertical.life)**. For help, reply **HELP**.\n\n##Mobile data policy\n\n- **Data Use**: We use your phone number solely for client communication.\n- **No Sharing**: We do **not** sell or share your mobile data with third parties for marketing purposes.\n- **Security**: We implement industry-standard safeguards to protect your personal information.\n- **Retention**: Your information will be retained only as long as necessary to fulfill communications. You may request deletion at any time.\n\n##Your contact information\n\nFor any privacy-related concerns, contact us at:\n\n**Vertical Life**\n\nAddress: 10330 N Meridian St, Suite 300, Indianapolis, IN 46290\n\nEmail: [hello@thevertical.life](mailto:hello@thevertical.life)\n\nPhone: [317-779-2497](tel:3177792497)\n\n##Terms of service summary\n\nBy using our website, you agree to use it lawfully, respect our intellectual property, and acknowledge our limitations of liability.\n\nPlease review our full Terms of Service for complete details."
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Questions about your data?",
+      "tone": "yellow",
+      "body": "Email hello@thevertical.life to request a copy of your data or ask us to delete it, or call 317-779-2497.",
+      "buttons": [
+        {
+          "label": "Email us",
+          "href": "mailto:hello@thevertical.life",
+          "style": "primary"
+        },
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "secondary"
+        }
+      ]
+    }
+  ]
+}

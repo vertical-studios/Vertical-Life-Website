@@ -1,0 +1,38 @@
+---
+import { tf } from "../../lib/tina";
+import { toneClass } from "../../lib/tone";
+const { heading, body, tiles = [], tone } = Astro.props;
+const ext = (h = "") => /^https?:/.test(h);
+---
+<section class:list={["section hub", toneClass(tone)]} data-tina-field={tf(Astro.props)}>
+  <div class="wrap">
+    {heading && <h2 data-tina-field={tf(Astro.props, "heading")}>{heading}</h2>}
+    {body && <p class="lede" data-tina-field={tf(Astro.props, "body")}>{body}</p>}
+    <ul class:list={["tiles", `n${Math.min(tiles?.length || 0, 4)}`]}>
+      {tiles?.map((t: any) => (
+        <li class:list={["tile", { lead: t.highlight }]} data-tina-field={tf(t)}>
+          <h3 data-tina-field={tf(t, "title")}>{t.title}</h3>
+          {t.text && <p data-tina-field={tf(t, "text")}>{t.text}</p>}
+          {t.href && <a class="go" href={t.href} data-tina-field={tf(t, "linkLabel")} {...(ext(t.href) ? { target: "_blank", rel: "noopener" } : {})}>{t.linkLabel || "Explore"}</a>}
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+<style>
+  .tiles { list-style: none; margin: 40px 0 0; padding: 0; display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); }
+  .tile { position: relative; display: flex; flex-direction: column; gap: 10px; padding: 26px 24px 24px; border: 2px solid currentColor; min-height: 230px; }
+  .tile h3 { color: var(--yellow); margin: 0; }
+  .on-white .tile h3, .on-yellow .tile h3 { color: inherit; }
+  .tile p { flex: 1; margin: 0; }
+  .tile.lead { background: var(--yellow); color: var(--black); border-color: var(--yellow); box-shadow: var(--shadow) var(--shadow) 0 var(--white); }
+  .tile.lead h3 { color: var(--black); }
+  .on-yellow .tile.lead { background: var(--black); color: var(--white); border-color: var(--black); }
+  .on-yellow .tile.lead h3 { color: var(--yellow); }
+  .go { align-self: flex-start; font: 600 1.4rem/1 var(--display); letter-spacing: var(--track); text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 6px; text-decoration-color: var(--yellow); padding: 10px 0 4px; }
+  .tile.lead .go, .on-yellow .go, .on-white .go { text-decoration-color: currentColor; }
+  .go::after { content: ""; position: absolute; inset: 0; }
+  .tile:has(.go:hover) { outline: 3px solid var(--yellow); outline-offset: 3px; }
+  .tile:has(.go:focus-visible) { outline: 3px solid var(--yellow); outline-offset: 3px; }
+  .go:focus-visible { outline: none; }
+</style>

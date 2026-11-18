@@ -1,0 +1,132 @@
+{
+  "title": "Free Faith and Leadership Resources | Vertical Life",
+  "description": "Free tools for Kingdom-minded leaders: The Vertical Framework, Spiritual Fitcheck, creative clarity and stewardship guides, and podcasts on faith and work.",
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "Resources",
+      "headline": "Grow in wisdom. Lead with purpose.",
+      "body": "Free tools, practical guides and podcast conversations to equip you for Kingdom impact in your faith, your work and your leadership.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/7cf58ec6-e2cb-4372-87cf-f7c335c7ff9a/mountainteambw2.jpg",
+      "imageAlt": "Vertical Life team members",
+      "buttons": [
+        {
+          "label": "Get the free tools",
+          "href": "#downloads",
+          "style": "primary"
+        },
+        {
+          "label": "Watch the podcast",
+          "href": "#podcast",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "cards",
+      "anchor": "downloads",
+      "heading": "Free tools and guides",
+      "body": "Proven frameworks and practical guides to help you live with Kingdom purpose every day. Each one is a free PDF.",
+      "style": "boxed",
+      "tone": "dark",
+      "items": [
+        {
+          "eyebrow": "Free download",
+          "title": "The Vertical Framework",
+          "body": "A practical blueprint for living with Kingdom purpose in every area of life.",
+          "linkLabel": "Download the Framework",
+          "linkHref": "https://www.thevertical.life/s/The-Vertical-Framework.pdf"
+        },
+        {
+          "eyebrow": "Free download",
+          "title": "Spiritual Fitcheck",
+          "body": "A self-assessment to measure how aligned your life is with God's calling.",
+          "linkLabel": "Download the Fitcheck",
+          "linkHref": "https://www.thevertical.life/s/Spiritual-Fitcheck.pdf"
+        },
+        {
+          "eyebrow": "Free download",
+          "title": "Creative Clarity Checklist",
+          "body": "A simple filter to turn creative chaos into clear, God-aligned action.",
+          "linkLabel": "Download the Checklist",
+          "linkHref": "https://www.thevertical.life/s/Creative-Clarity-Checklist.pdf"
+        },
+        {
+          "eyebrow": "Free download",
+          "title": "Financial Stewardship",
+          "body": "A Kingdom guide to managing money with margin, purpose and impact.",
+          "linkLabel": "Download the guide",
+          "linkHref": "https://www.thevertical.life/s/Financial-Stewardship.pdf"
+        }
+      ]
+    },
+    {
+      "_template": "cards",
+      "anchor": "podcast",
+      "heading": "Featured podcasts",
+      "body": "Conversations with faith-driven leaders, innovators and visionaries pursuing Kingdom impact in every sphere.",
+      "style": "boxed",
+      "tone": "dark",
+      "items": [
+        {
+          "image": "https://i.ytimg.com/vi/0NApc4QRhsw/hqdefault.jpg",
+          "imageAlt": "Brian Wheeler podcast episode on faith and humility in leadership",
+          "eyebrow": "With Brian Wheeler",
+          "title": "How faith and humility inspire strong leadership",
+          "body": "Brian Wheeler on how faith and humility shape the way we lead.",
+          "linkLabel": "Watch on YouTube",
+          "linkHref": "https://www.youtube.com/watch?v=0NApc4QRhsw"
+        },
+        {
+          "image": "https://i.ytimg.com/vi/QnLEGmceOT4/hqdefault.jpg",
+          "imageAlt": "Podcast episode on demystifying our dreams and calling",
+          "eyebrow": "Podcast",
+          "title": "Demystifying our dreams and calling",
+          "body": "A conversation about understanding the dreams and the calling God places on your life.",
+          "linkLabel": "Watch on YouTube",
+          "linkHref": "https://www.youtube.com/watch?v=QnLEGmceOT4"
+        },
+        {
+          "image": "https://i.ytimg.com/vi/3n1ylWgjN9c/hqdefault.jpg",
+          "imageAlt": "Brian Wheeler podcast episode on God's prompting and divine encounters",
+          "eyebrow": "With Brian Wheeler",
+          "title": "When God's prompting leads to divine encounters",
+          "body": "Brian Wheeler on what can happen when you follow God's prompting.",
+          "linkLabel": "Watch on YouTube",
+          "linkHref": "https://www.youtube.com/watch?v=3n1ylWgjN9c"
+        }
+      ],
+      "buttons": [
+        {
+          "label": "Read the blog",
+          "href": "/blog",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "postList",
+      "heading": "Latest from the blog",
+      "limit": 3,
+      "tone": "dark"
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Ready to take the next step?",
+      "tone": "yellow",
+      "body": "Work alongside Kingdom-minded builders at the Atrium, or partner with Vertical Life to help build what's next.",
+      "buttons": [
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "primary"
+        },
+        {
+          "label": "Get involved",
+          "href": "/get-involved",
+          "style": "secondary"
+        }
+      ]
+    }
+  ]
+}

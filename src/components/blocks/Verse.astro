@@ -1,0 +1,18 @@
+---
+import { tf } from "../../lib/tina";
+import { toneClass } from "../../lib/tone";
+const { text, reference, tone } = Astro.props;
+---
+<section class:list={["section verse", toneClass(tone)]} data-tina-field={tf(Astro.props)}>
+  <figure class="wrap">
+    <blockquote data-tina-field={tf(Astro.props, "text")}>{text}</blockquote>
+    {reference && <figcaption data-tina-field={tf(Astro.props, "reference")}>{reference}</figcaption>}
+  </figure>
+</section>
+<style>
+  figure { margin-block: 0; }
+  blockquote { margin: 0; max-width: 30ch; font: 600 clamp(2.2rem, 1.4rem + 3vw, 3.6rem)/1 var(--display); letter-spacing: var(--track); text-wrap: balance; }
+  .grain blockquote { color: var(--yellow); }
+  figcaption { display: inline-block; margin-top: 24px; padding: 6px 18px 4px 12px; background: var(--yellow); color: var(--black); font: 600 1.2rem/1 var(--display); letter-spacing: var(--track); clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0 100%); }
+  .on-yellow figcaption { background: var(--black); color: var(--yellow); }
+</style>

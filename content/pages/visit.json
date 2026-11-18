@@ -1,0 +1,64 @@
+{
+  "title": "Visit the Atrium | Pricing Sheet and Tours | Vertical Life",
+  "description": "Plan a visit to the Atrium in Carmel. Fill out one short form and we'll send the pricing sheet, text you within 2 hours and share a link to book your tour.",
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "Visit the Atrium",
+      "headline": "Come and see",
+      "body": "Membership starts with a conversation, not a contract. Fill out the form and we'll send the pricing sheet, then a link to book your tour.",
+      "buttons": [
+        {
+          "label": "Fill out the form",
+          "href": "#plan",
+          "style": "primary"
+        },
+        {
+          "label": "See packages",
+          "href": "/the-atrium#packages",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "embed",
+      "anchor": "plan",
+      "heading": "Plan your visit",
+      "kind": "form",
+      "widgetId": "4oy1ifQLh87dXsM1L21h",
+      "height": 760,
+      "tone": "white",
+      "body": "Tell us a little about you and your team. Someone from the Atrium will follow up personally."
+    },
+    {
+      "_template": "steps",
+      "heading": "What happens next",
+      "tone": "dark",
+      "items": [
+        "Fill out the form on this page",
+        "Get the pricing sheet by email, plus a text from us within 2 hours",
+        "Pick a tour time from the link we send",
+        "Walk the space, meet a few people and decide"
+      ]
+    },
+    {
+      "_template": "faq",
+      "heading": "Before you visit",
+      "tone": "dark",
+      "items": [
+        {
+          "question": "Where is the Atrium?",
+          "answer": "10330 N Meridian St, Suite 300, Indianapolis, IN 46290, on N Meridian near Carmel."
+        },
+        {
+          "question": "Can I see prices first?",
+          "answer": "Yes. Every package and room rate is on the [Atrium page](/the-atrium#packages)."
+        },
+        {
+          "question": "Who should I call with questions?",
+          "answer": "Call [317-779-2497](tel:3177792497) or email [hello@thevertical.life](mailto:hello@thevertical.life)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "title": "Contact Vertical Life | The Atrium near Carmel",
+  "description": "Call, email or visit Vertical Life at the Atrium, 10330 N Meridian St, Suite 300, Indianapolis, near Carmel. Plan a tour or ask about partnering with us.",
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "Contact",
+      "headline": "We'd love to hear from you",
+      "body": "Call, email or come see the Atrium. Whether you're looking for a desk, a room or a way to partner with us, here's how to reach the team at Vertical Life.",
+      "buttons": [
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "primary"
+        },
+        {
+          "label": "Call 317-779-2497",
+          "href": "tel:3177792497",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "cards",
+      "anchor": "details",
+      "heading": "How to reach us",
+      "style": "boxed",
+      "tone": "dark",
+      "items": [
+        {
+          "eyebrow": "Phone",
+          "title": "Call us",
+          "body": "[317-779-2497](tel:3177792497)\n\nQuestions about packages, rooms or our ecosystem? Give us a call.",
+          "linkLabel": "Call now",
+          "linkHref": "tel:3177792497"
+        },
+        {
+          "eyebrow": "Email",
+          "title": "Email us",
+          "body": "[hello@thevertical.life](mailto:hello@thevertical.life)\n\nSend us a note and someone from the team will get back to you.",
+          "linkLabel": "Send an email",
+          "linkHref": "mailto:hello@thevertical.life"
+        },
+        {
+          "eyebrow": "Address",
+          "title": "Find the Atrium",
+          "body": "10330 N Meridian St, Suite 300, Indianapolis, IN 46290\n\nOn N Meridian near Carmel.",
+          "linkLabel": "Get directions",
+          "linkHref": "https://www.google.com/maps/search/?api=1&query=10330+N+Meridian+St+Suite+300+Indianapolis+IN+46290"
+        }
+      ]
+    },
+    {
+      "_template": "imageText",
+      "anchor": "visiting",
+      "heading": "Visiting the Atrium",
+      "tone": "white",
+      "imageSide": "right",
+      "body": "The Atrium is Vertical Life's physical home: coworking, dedicated desks and private offices for Kingdom-minded businesses, nonprofits and community members, plus meeting rooms, a production studio and a performance space.\n\nThe best way to see it is a tour. Fill out the short form on the [visit page](/visit) and we'll take it from there.",
+      "bullets": [
+        "We email you the pricing sheet",
+        "We text you within 2 hours",
+        "We send a link to book your tour"
+      ],
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/5ff03825-1a47-4ce1-ba76-86c1e5ed8f39/TheAtrium.png",
+      "imageAlt": "The Atrium at 10330 N Meridian St",
+      "buttons": [
+        {
+          "label": "Plan your visit",
+          "href": "/visit",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "_template": "cards",
+      "heading": "Looking for something else?",
+      "style": "plain",
+      "tone": "dark",
+      "items": [
+        {
+          "title": "Partner with us",
+          "body": "Interested in becoming an organizational partner or supporting the mission? Start with the get involved form.",
+          "linkLabel": "Get involved",
+          "linkHref": "/get-involved"
+        },
+        {
+          "title": "Tour the Atrium",
+          "body": "See the space, meet a few people and get the pricing sheet by email.",
+          "linkLabel": "Plan a visit",
+          "linkHref": "/visit"
+        },
+        {
+          "title": "Book a room",
+          "body": "Meeting rooms, the production studio and the performance space are open to anyone at public rates.",
+          "linkLabel": "See room rates",
+          "linkHref": "/the-atrium#rooms"
+        },
+        {
+          "title": "Host an event",
+          "body": "The production studio and performance space are open for bookings now. Our event space is coming soon, opening for bookings in early 2027.",
+          "linkLabel": "Events and venue",
+          "linkHref": "/events-venue"
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Come see the Atrium",
+      "tone": "yellow",
+      "body": "Fill out one short form. We'll email the pricing sheet, text you within 2 hours and send a link to book your tour.",
+      "buttons": [
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "primary"
+        },
+        {
+          "label": "Email us",
+          "href": "mailto:hello@thevertical.life",
+          "style": "secondary"
+        }
+      ]
+    }
+  ]
+}

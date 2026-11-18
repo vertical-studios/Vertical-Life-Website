@@ -1,0 +1,131 @@
+{
+  "title": "Event Space and Studio Rental near Carmel | Vertical Life",
+  "description": "Book the production studio, performance space or meeting rooms at the Atrium near Carmel by the hour. Our event space opens for bookings in early 2027.",
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "Events and venue",
+      "headline": "Space to gather and create",
+      "body": "A production studio, a performance space and meeting rooms at the Atrium, open to members and the public by the hour. Our event space is coming soon.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/ff78a2fd-536b-4d12-8173-fdb0e8ebf84a/Event+Space.jpg",
+      "imageAlt": "The event space at the Atrium",
+      "buttons": [
+        {
+          "label": "See room rates",
+          "href": "#rates",
+          "style": "primary"
+        },
+        {
+          "label": "Ask about booking",
+          "href": "/contact",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "imageText",
+      "anchor": "rooms",
+      "heading": "Studio, stage and meeting rooms",
+      "tone": "dark",
+      "imageSide": "left",
+      "body": "You don't need a membership to use the Atrium's rooms. The production studio, the performance space and our meeting rooms are open to anyone at public rates, booked by the hour.\n\nMembers book the same rooms with room credits, so the time they use most is already part of their package.",
+      "bullets": [
+        "Production studio for video, photo and podcast production",
+        "Performance space for performances, events and large gatherings",
+        "Meeting rooms for trainings, workshops and team meetings"
+      ],
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/b2f21589-e2e6-4e8d-b40c-06772017f1ae/Training+Room.jpg",
+      "imageAlt": "A meeting room at the Atrium"
+    },
+    {
+      "_template": "rooms",
+      "anchor": "rates",
+      "heading": "Rates for every room",
+      "tone": "white",
+      "body": "Anyone can book at public rates. Members book with credits instead of cash, at $10 a credit.",
+      "rows": [
+        {
+          "room": "Meeting rooms",
+          "use": "Trainings, workshops and team meetings",
+          "credits": "3",
+          "member": "$30",
+          "public": "$36"
+        },
+        {
+          "room": "Production studio",
+          "use": "Video, photo and podcast production",
+          "credits": "5",
+          "member": "$50",
+          "public": "$60"
+        },
+        {
+          "room": "Performance space",
+          "use": "Performances, events and large gatherings",
+          "credits": "10",
+          "member": "$100",
+          "public": "$125"
+        }
+      ],
+      "note": "Prices are per hour. Member credits refresh monthly and don't roll over; add more anytime at $10 a credit. Production studio and performance space bookings follow our booking guidelines."
+    },
+    {
+      "_template": "richText",
+      "anchor": "event-space",
+      "heading": "Event space: coming soon",
+      "tone": "dark",
+      "body": "The Atrium's event space is home to a church on Sundays. We expect to open it for event bookings in early 2027.\n\nPlanning something for next year? [Contact us](/contact) to ask about the event space, or book the performance space today for performances, events and large gatherings.",
+      "buttons": [
+        {
+          "label": "Ask about the event space",
+          "href": "/contact",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "faq",
+      "heading": "Booking questions",
+      "tone": "dark",
+      "items": [
+        {
+          "question": "Do I need to be a member to book?",
+          "answer": "No. Anyone can book the meeting rooms, the production studio and the performance space at public rates: $36, $60 and $125 an hour."
+        },
+        {
+          "question": "How do members pay for rooms?",
+          "answer": "Members book with room credits at $10 each. A meeting room is 3 credits an hour, the production studio is 5 and the performance space is 10. [Here's how room credits work](/blog/how-room-credits-work-at-the-atrium)."
+        },
+        {
+          "question": "Are there booking guidelines?",
+          "answer": "Yes. Production studio and performance space bookings follow our booking guidelines. [Contact us](/contact) and we'll walk you through them."
+        },
+        {
+          "question": "When can I book the event space?",
+          "answer": "The event space is coming soon. We expect to open it for bookings in early 2027."
+        },
+        {
+          "question": "Where is the Atrium?",
+          "answer": "10330 N Meridian St, Suite 300, Indianapolis, IN 46290, on N Meridian near Carmel."
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Plan your next gathering",
+      "tone": "yellow",
+      "body": "Tell us what you have in mind and we'll help you find the right room. Or come see the space for yourself first.",
+      "buttons": [
+        {
+          "label": "Ask about booking",
+          "href": "/contact",
+          "style": "primary"
+        },
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "secondary"
+        }
+      ]
+    }
+  ]
+}

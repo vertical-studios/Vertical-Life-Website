@@ -1,0 +1,44 @@
+---
+import Buttons from "../Buttons.astro";
+import { tf } from "../../lib/tina";
+import { toneClass } from "../../lib/tone";
+const { heading, body, tiers = [], note, buttons, tone, anchor } = Astro.props;
+---
+<section class:list={["section pricing", toneClass(tone)]} id={anchor || undefined} data-tina-field={tf(Astro.props)}>
+  <div class="wrap">
+    {heading && <h2 data-tina-field={tf(Astro.props, "heading")}>{heading}</h2>}
+    {body && <p class="lede" data-tina-field={tf(Astro.props, "body")}>{body}</p>}
+    <ul class="tiers">
+      {tiers?.map((t: any) => (
+        <li class:list={["tier box", { hl: t.highlight }]} data-tina-field={tf(t)}>
+          <h3 data-tina-field={tf(t, "name")}>{t.name}</h3>
+          <p class="price"><span data-tina-field={tf(t, "price")}>{t.price}</span>{t.period && <small data-tina-field={tf(t, "period")}>{t.period}</small>}</p>
+          {t.summary && <p class="sum" data-tina-field={tf(t, "summary")}>{t.summary}</p>}
+          {t.features?.length > 0 && (
+            <ul class="feat">{t.features.map((f: string, i: number) => <li data-tina-field={tf(t, "features", i)}>{f}</li>)}</ul>
+          )}
+          {t.buttonHref && <a class="btn btn-primary" href={t.buttonHref} data-tina-field={tf(t, "buttonLabel")}>{t.buttonLabel || "Visit the Atrium"}</a>}
+        </li>
+      ))}
+    </ul>
+    {note && <p class="note" data-tina-field={tf(Astro.props, "note")}>{note}</p>}
+    <Buttons buttons={buttons} />
+  </div>
+</section>
+<style>
+  .tiers { list-style: none; margin: 44px 0 0; padding: 0; display: grid; gap: 28px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); align-items: stretch; }
+  .tier { display: flex; flex-direction: column; padding: 28px 26px; }
+  .tier h3 { margin: 0 0 10px; }
+  .price { display: flex; align-items: baseline; gap: 8px; margin: 0 0 12px; }
+  .price span { font: 600 4rem/0.9 var(--display); letter-spacing: var(--track); }
+  .price small { font-weight: 500; font-size: 1rem; }
+  .sum { font-weight: 500; }
+  .feat { list-style: none; padding: 0; margin: 0 0 22px; display: grid; gap: 8px; flex: 1; }
+  .feat li { position: relative; padding-left: 22px; }
+  .feat li::before { content: ""; position: absolute; left: 0; top: 0.55em; width: 10px; height: 10px; background: currentColor; }
+  .tier .btn { align-self: flex-start; }
+  .tier.hl { background: var(--yellow); color: var(--black); box-shadow: var(--shadow) var(--shadow) 0 var(--white); }
+  .tier.hl .btn { background: var(--black); color: var(--yellow); border-color: var(--black); }
+  .tier:not(.hl) .btn:hover { box-shadow: var(--shadow) var(--shadow) 0 var(--black); }
+  .note { margin-top: 32px; font-size: 0.95rem; max-width: 70ch; }
+</style>

@@ -1,0 +1,144 @@
+{
+  "title": "What's the Ecosystem? Kingdom-Minded Companies | Vertical Life",
+  "description": "Meet Vertical Immersive, Vertical Wealth and Vertical Studios: the Kingdom-minded companies in Vertical Life's ecosystem, with the Atrium as their home.",
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "Vertical Life's ecosystem",
+      "headline": "What's the ecosystem?",
+      "body": "A collection of Kingdom-minded partners working together to create an impact in their community. Through partnerships, we can achieve remarkable Kingdom impact together. Join us on this pursuit!",
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/08f97603-b66a-4472-bd1f-05e33ea7af5f/VLpeople.png",
+      "imageAlt": "People from our community",
+      "buttons": [
+        {
+          "label": "Meet the companies",
+          "href": "#companies",
+          "style": "primary"
+        },
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "cards",
+      "heading": "Who's part of the ecosystem?",
+      "style": "boxed",
+      "tone": "dark",
+      "body": "Four kinds of people and places work together to advance the mission.",
+      "items": [
+        {
+          "title": "Companies",
+          "body": "Operating companies that advance the mission."
+        },
+        {
+          "title": "Partners",
+          "body": "Organizational relationships that strengthen the ecosystem."
+        },
+        {
+          "title": "Champions",
+          "body": "People who champion the vision and help advance the mission."
+        },
+        {
+          "title": "Community",
+          "body": "Spaces where relationships, collaboration and growth occur."
+        }
+      ]
+    },
+    {
+      "_template": "cards",
+      "anchor": "companies",
+      "heading": "Vertical Life's companies",
+      "style": "plain",
+      "tone": "dark",
+      "body": "Our sister companies provide the platforms for growth, developing individuals and companies to be their best. Each one also supports the ecosystem through charitable contributions, subsidized services and matching funds.",
+      "items": [
+        {
+          "image": "https://images.squarespace-cdn.com/content/v1/667c450ccef1c76b7cebfd4c/2e824f74-41c8-4889-ba82-b4ec779676ad/VI+white+bold+yellow+horizontal.png?format=750w",
+          "imageAlt": "Vertical Immersive",
+          "imageIsLogo": true,
+          "title": "Higher education reimagined",
+          "body": "A two-year program preparing the next generation of leaders for real-world impact through faith-driven study and mentorship.",
+          "linkLabel": "Explore Vertical Immersive",
+          "linkHref": "/vertical-immersive"
+        },
+        {
+          "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/c61507fa-ebab-4c81-9ddf-7d704fdd3902/VW+white+bold+yellow+horizontal.png?format=750w",
+          "imageAlt": "Vertical Wealth",
+          "imageIsLogo": true,
+          "title": "Kingdom-minded stewardship",
+          "body": "Leaving a legacy through Kingdom-minded financial growth and stewardship, helping believers align resources with purpose.",
+          "linkLabel": "Explore Vertical Wealth",
+          "linkHref": "/vertical-wealth"
+        },
+        {
+          "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/3d25ed0c-15fb-421e-9725-f759edebcb04/VS+white+bold+yellow+horizontal.png?format=750w",
+          "imageAlt": "Vertical Studios",
+          "imageIsLogo": true,
+          "title": "Media, content and marketing",
+          "body": "A creative hub that empowers faith-based voices to share their stories with excellence.",
+          "linkLabel": "Explore Vertical Studios",
+          "linkHref": "/vertical-studios"
+        }
+      ]
+    },
+    {
+      "_template": "imageText",
+      "heading": "The Atrium, our physical home",
+      "tone": "white",
+      "imageSide": "right",
+      "body": "Every ecosystem needs a place to gather. The Atrium gives Vertical Life a physical home at 10330 N Meridian St, near Carmel.\n\nBusinesses, nonprofits, educational initiatives and community members work in the same building, with seminars and workshops along the way.",
+      "bullets": [
+        "Coworking and dedicated desks",
+        "Lockable private offices for teams",
+        "Seminars, workshops and community"
+      ],
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/5ff03825-1a47-4ce1-ba76-86c1e5ed8f39/TheAtrium.png",
+      "imageAlt": "The Atrium at 10330 N Meridian St",
+      "buttons": [
+        {
+          "label": "See the Atrium",
+          "href": "/the-atrium",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "_template": "imageText",
+      "anchor": "champions",
+      "heading": "Champion spotlight",
+      "tone": "dark",
+      "imageSide": "left",
+      "body": "**Jeff Houvenour** is a champion of Vertical Life, known for his rooted wisdom, practical leadership and relentless entrepreneurial drive.\n\nAs a personal finance instructor at **Vertical Immersive**, Jeff equips young leaders with the skills, habits and mindset needed to steward money with clarity and conviction.\n\nBeyond the classroom, he actively manages several business ventures, modeling what it looks like to build, risk and innovate while staying grounded in biblical stewardship.\n\nHis influence helps shape a culture where students learn to pursue opportunity with integrity and live out Kingdom principles in every area of life.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/233f084b-70ff-472e-8acf-7b47a23b5a71/1W3A0457.jpg",
+      "imageAlt": "A presenter speaking to an audience during a leadership and values workshop",
+      "buttons": [
+        {
+          "label": "Get involved",
+          "href": "/get-involved",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Find your place in the ecosystem",
+      "tone": "yellow",
+      "body": "Join a community of individuals striving for Kingdom impact in all spheres of life. Start with a visit to the Atrium.",
+      "buttons": [
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "primary"
+        },
+        {
+          "label": "Get involved",
+          "href": "/get-involved",
+          "style": "secondary"
+        }
+      ]
+    }
+  ]
+}

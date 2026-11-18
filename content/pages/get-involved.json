@@ -1,0 +1,96 @@
+{
+  "title": "Get Involved | Partner with Vertical Life",
+  "description": "Join a community of Kingdom-minded people and organizations. Partner with Vertical Life, support the mission and help build what's next for greater impact.",
+  "blocks": [
+    {
+      "_template": "hero",
+      "eyebrow": "Get involved",
+      "headline": "Partner with us for greater impact",
+      "body": "God calls Kingdom-minded people and organizations to partner together for greater impact. Fill out the form and join us on the journey to immeasurably more.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/08f97603-b66a-4472-bd1f-05e33ea7af5f/VLpeople.png",
+      "imageAlt": "People from our community",
+      "buttons": [
+        {
+          "label": "Fill out the form",
+          "href": "#form",
+          "style": "primary"
+        },
+        {
+          "label": "Interested in coworking?",
+          "href": "/the-atrium",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "embed",
+      "anchor": "form",
+      "heading": "Join us on the journey",
+      "body": "Our partners get access to meaningful opportunities and a support system that shares their values and a Kingdom-oriented mindset. Tell us a little about you, and someone from Vertical Life will follow up.",
+      "kind": "form",
+      "widgetId": "57e6z1YgkknRckzHqdxz",
+      "height": 720,
+      "tone": "white"
+    },
+    {
+      "_template": "richText",
+      "anchor": "partners",
+      "heading": "Become an organizational partner",
+      "tone": "dark",
+      "body": "At Vertical Life, we intentionally partner with other organizations that pursue eternal impact. These organizations get access to a support system that shares their values and Kingdom-oriented mindset.\n\nAs we grow, we continue to add corporate partners to our network who share our vision of bringing a ministry mindset into all spheres of life. We believe God calls Kingdom-minded organizations to partner together to achieve greater impact.\n\n**Interested in a partnership? Fill out the form above and we'll start the conversation.**",
+      "buttons": [
+        {
+          "label": "Fill out the form",
+          "href": "#form",
+          "style": "primary"
+        }
+      ]
+    },
+    {
+      "_template": "verse",
+      "text": "Now to him who is able to do immeasurably more than all we ask or imagine, according to his power that is at work within us.",
+      "reference": "Ephesians 3:20",
+      "tone": "dark"
+    },
+    {
+      "_template": "imageText",
+      "anchor": "coworking",
+      "heading": "Interested in coworking?",
+      "tone": "dark",
+      "imageSide": "right",
+      "body": "The Atrium is Vertical Life's physical home on N Meridian near Carmel: coworking, dedicated desks and private offices for Kingdom-minded businesses, nonprofits and community members.\n\nMemberships start at $150 a month, and every package includes the community.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6628083a88405b4d0f29bf6f/5ff03825-1a47-4ce1-ba76-86c1e5ed8f39/TheAtrium.png",
+      "imageAlt": "The Atrium at 10330 N Meridian St",
+      "buttons": [
+        {
+          "label": "See the Atrium",
+          "href": "/the-atrium",
+          "style": "primary"
+        },
+        {
+          "label": "See packages",
+          "href": "/the-atrium#packages",
+          "style": "secondary"
+        }
+      ]
+    },
+    {
+      "_template": "ctaBanner",
+      "heading": "Help build what's next",
+      "tone": "yellow",
+      "body": "Partner with Vertical Life and join a community that shares your values and your Kingdom-oriented mindset.",
+      "buttons": [
+        {
+          "label": "Fill out the form",
+          "href": "#form",
+          "style": "primary"
+        },
+        {
+          "label": "Visit the Atrium",
+          "href": "/visit",
+          "style": "secondary"
+        }
+      ]
+    }
+  ]
+}

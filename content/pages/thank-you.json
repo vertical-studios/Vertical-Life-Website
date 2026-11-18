@@ -1,0 +1,24 @@
+{
+  "title": "Thank You | Vertical Life",
+  "noindex": true,
+  "description": "Thanks for reaching out to Vertical Life. Your pricing sheet is on its way, and we'll text you within 2 hours with a link to book your tour of the Atrium.",
+  "blocks": [
+    {
+      "_template": "hero",
+      "headline": "Thanks. Check your email.",
+      "body": "Your pricing sheet is on its way, and we'll text you within 2 hours with a link to book your tour of the Atrium.",
+      "buttons": [
+        {
+          "label": "See the Atrium",
+          "href": "/the-atrium",
+          "style": "primary"
+        },
+        {
+          "label": "Explore the ecosystem",
+          "href": "/ecosystem",
+          "style": "secondary"
+        }
+      ]
+    }
+  ]
+}
