@@ -20,7 +20,7 @@ const { heading, body, items = [], buttons, tone } = Astro.props;
   ol { list-style: none; margin: 40px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 28px; }
   li { padding-top: 16px; border-top: 4px solid var(--yellow); }
   .on-yellow li, .on-white li { border-top-color: var(--black); }
-  .n { display: block; font: 600 3.4rem/1 var(--display); letter-spacing: var(--track); color: var(--yellow); margin-bottom: 8px; }
+  .n { display: block; font: 600 var(--fs-step)/1 var(--display); letter-spacing: var(--track); color: var(--yellow); margin-bottom: 8px; }
   .on-yellow .n, .on-white .n { color: inherit; }
   li p { font-weight: 500; }
 </style>
