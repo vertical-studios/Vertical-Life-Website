@@ -12,15 +12,15 @@
           "href": "/the-atrium"
         },
         {
-          "label": "Packages and prices",
+          "label": "Packages and Prices",
           "href": "/the-atrium#packages"
         },
         {
-          "label": "Meeting rooms and credits",
+          "label": "Meeting Rooms and Credits",
           "href": "/the-atrium#rooms"
         },
         {
-          "label": "Events and venue",
+          "label": "Events and Venue",
           "href": "/events-venue"
         },
         {
@@ -33,7 +33,7 @@
       "label": "Ecosystem",
       "links": [
         {
-          "label": "What's the ecosystem?",
+          "label": "What's the Ecosystem?",
           "href": "/ecosystem"
         },
         {
@@ -54,7 +54,7 @@
       "label": "Resources",
       "links": [
         {
-          "label": "Downloads and podcasts",
+          "label": "Downloads and Podcasts",
           "href": "/resources"
         },
         {
@@ -67,15 +67,15 @@
       "label": "About",
       "links": [
         {
-          "label": "Who we are",
+          "label": "Who We Are",
           "href": "/about"
         },
         {
-          "label": "Our values",
+          "label": "Our Values",
           "href": "/about#values"
         },
         {
-          "label": "Get involved",
+          "label": "Get Involved",
           "href": "/get-involved"
         },
         {
@@ -98,17 +98,17 @@
   "footerLinks": [
     {
       "section": "The Atrium",
-      "label": "Packages and prices",
+      "label": "Packages and Prices",
       "href": "/the-atrium#packages"
     },
     {
       "section": "The Atrium",
-      "label": "Meeting rooms",
+      "label": "Meeting Rooms",
       "href": "/the-atrium#rooms"
     },
     {
       "section": "The Atrium",
-      "label": "Events and venue",
+      "label": "Events and Venue",
       "href": "/events-venue"
     },
     {
@@ -118,7 +118,7 @@
     },
     {
       "section": "Ecosystem",
-      "label": "What's the ecosystem?",
+      "label": "What's the Ecosystem?",
       "href": "/ecosystem"
     },
     {
@@ -153,7 +153,7 @@
     },
     {
       "section": "Learn",
-      "label": "Get involved",
+      "label": "Get Involved",
       "href": "/get-involved"
     },
     {
@@ -182,7 +182,7 @@
   ],
   "legal": [
     {
-      "label": "Privacy policy",
+      "label": "Privacy Policy",
       "href": "/privacy"
     }
   ],
@@ -205,5 +205,5 @@
   ],
   "siteName": "Vertical Life",
   "contactHeading": "Visit the Atrium",
-  "familyHeading": "The ecosystem"
+  "familyHeading": "The Ecosystem"
 }
