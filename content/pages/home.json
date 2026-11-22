@@ -16,7 +16,7 @@
           "style": "primary"
         },
         {
-          "label": "Explore the ecosystem",
+          "label": "Explore the Ecosystem",
           "href": "/ecosystem",
           "style": "secondary"
         }
@@ -167,12 +167,12 @@
       "imageAlt": "Vertical Life team members",
       "buttons": [
         {
-          "label": "Explore the ecosystem",
+          "label": "Explore the Ecosystem",
           "href": "/ecosystem",
           "style": "primary"
         },
         {
-          "label": "Who we are",
+          "label": "Who We Are",
           "href": "/about",
           "style": "secondary"
         }
@@ -209,7 +209,7 @@
       ],
       "buttons": [
         {
-          "label": "Our values",
+          "label": "Our Values",
           "href": "/about#values",
           "style": "secondary"
         }
@@ -246,7 +246,7 @@
       ],
       "buttons": [
         {
-          "label": "All resources",
+          "label": "All Resources",
           "href": "/resources",
           "style": "secondary"
         }
@@ -272,7 +272,7 @@
           "style": "primary"
         },
         {
-          "label": "See packages",
+          "label": "See Packages",
           "href": "/the-atrium#packages",
           "style": "secondary"
         }

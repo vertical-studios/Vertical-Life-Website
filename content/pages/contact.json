@@ -31,21 +31,21 @@
           "eyebrow": "Phone",
           "title": "Call us",
           "body": "[317-779-2497](tel:3177792497)\n\nQuestions about packages, rooms or our ecosystem? Give us a call.",
-          "linkLabel": "Call now",
+          "linkLabel": "Call Now",
           "linkHref": "tel:3177792497"
         },
         {
           "eyebrow": "Email",
           "title": "Email us",
           "body": "[hello@thevertical.life](mailto:hello@thevertical.life)\n\nSend us a note and someone from the team will get back to you.",
-          "linkLabel": "Send an email",
+          "linkLabel": "Send an Email",
           "linkHref": "mailto:hello@thevertical.life"
         },
         {
           "eyebrow": "Address",
           "title": "Find the Atrium",
           "body": "10330 N Meridian St, Suite 300, Indianapolis, IN 46290\n\nOn N Meridian near Carmel.",
-          "linkLabel": "Get directions",
+          "linkLabel": "Get Directions",
           "linkHref": "https://www.google.com/maps/search/?api=1&query=10330+N+Meridian+St+Suite+300+Indianapolis+IN+46290"
         }
       ]
@@ -66,7 +66,7 @@
       "imageAlt": "The Atrium at 10330 N Meridian St",
       "buttons": [
         {
-          "label": "Plan your visit",
+          "label": "Plan Your Visit",
           "href": "/visit",
           "style": "primary"
         }
@@ -81,25 +81,25 @@
         {
           "title": "Partner with us",
           "body": "Interested in becoming an organizational partner or supporting the mission? Start with the get involved form.",
-          "linkLabel": "Get involved",
+          "linkLabel": "Get Involved",
           "linkHref": "/get-involved"
         },
         {
           "title": "Tour the Atrium",
           "body": "See the space, meet a few people and get the pricing sheet by email.",
-          "linkLabel": "Plan a visit",
+          "linkLabel": "Plan a Visit",
           "linkHref": "/visit"
         },
         {
           "title": "Book a room",
           "body": "Meeting rooms, the production studio and the performance space are open to anyone at public rates.",
-          "linkLabel": "See room rates",
+          "linkLabel": "See Room Rates",
           "linkHref": "/the-atrium#rooms"
         },
         {
           "title": "Host an event",
           "body": "The production studio and performance space are open for bookings now. Our event space is coming soon, opening for bookings in early 2027.",
-          "linkLabel": "Events and venue",
+          "linkLabel": "Events and Venue",
           "linkHref": "/events-venue"
         }
       ]
@@ -116,7 +116,7 @@
           "style": "primary"
         },
         {
-          "label": "Email us",
+          "label": "Email Us",
           "href": "mailto:hello@thevertical.life",
           "style": "secondary"
         }

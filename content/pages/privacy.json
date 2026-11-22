@@ -23,7 +23,7 @@
       "body": "Email hello@thevertical.life to request a copy of your data or ask us to delete it, or call 317-779-2497.",
       "buttons": [
         {
-          "label": "Email us",
+          "label": "Email Us",
           "href": "mailto:hello@thevertical.life",
           "style": "primary"
         },

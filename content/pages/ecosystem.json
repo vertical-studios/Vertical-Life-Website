@@ -11,7 +11,7 @@
       "imageAlt": "People from our community",
       "buttons": [
         {
-          "label": "Meet the companies",
+          "label": "Meet the Companies",
           "href": "#companies",
           "style": "primary"
         },
@@ -116,7 +116,7 @@
       "imageAlt": "A presenter speaking to an audience during a leadership and values workshop",
       "buttons": [
         {
-          "label": "Get involved",
+          "label": "Get Involved",
           "href": "/get-involved",
           "style": "secondary"
         }
@@ -134,7 +134,7 @@
           "style": "primary"
         },
         {
-          "label": "Get involved",
+          "label": "Get Involved",
           "href": "/get-involved",
           "style": "secondary"
         }

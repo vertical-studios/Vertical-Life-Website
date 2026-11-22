@@ -9,12 +9,12 @@
       "body": "Membership starts with a conversation, not a contract. Fill out the form and we'll send the pricing sheet, then a link to book your tour.",
       "buttons": [
         {
-          "label": "Fill out the form",
+          "label": "Fill Out the Form",
           "href": "#plan",
           "style": "primary"
         },
         {
-          "label": "See packages",
+          "label": "See Packages",
           "href": "/the-atrium#packages",
           "style": "secondary"
         }

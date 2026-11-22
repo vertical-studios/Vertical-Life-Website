@@ -14,7 +14,7 @@
           "style": "primary"
         },
         {
-          "label": "Book a tour",
+          "label": "Book a Tour",
           "href": "https://www.verticalimmersive.life/tour",
           "style": "secondary"
         }
@@ -27,7 +27,7 @@
       "body": "Vertical Immersive is the education arm of Vertical Life. Instead of four years and a stack of loans, students spend two years discovering how God wired them and building a learning path around it.\n\nLearning happens through real work, mentors and discipleship. In year two, students have the opportunity to secure a paid apprenticeship of their own.\n\n**They graduate with real experience, a professional network and a faith that holds up under pressure.**",
       "buttons": [
         {
-          "label": "Explore the ecosystem",
+          "label": "Explore the Ecosystem",
           "href": "/ecosystem",
           "style": "secondary"
         }
@@ -67,7 +67,7 @@
       "body": "Explore programs, tours and admissions on the Vertical Immersive site, or book a tour to see it for yourself.",
       "buttons": [
         {
-          "label": "Book a tour",
+          "label": "Book a Tour",
           "href": "https://www.verticalimmersive.life/tour",
           "style": "primary"
         },

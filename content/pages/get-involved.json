@@ -11,12 +11,12 @@
       "imageAlt": "People from our community",
       "buttons": [
         {
-          "label": "Fill out the form",
+          "label": "Fill Out the Form",
           "href": "#form",
           "style": "primary"
         },
         {
-          "label": "Interested in coworking?",
+          "label": "Interested in Coworking?",
           "href": "/the-atrium",
           "style": "secondary"
         }
@@ -40,7 +40,7 @@
       "body": "At Vertical Life, we intentionally partner with other organizations that pursue eternal impact. These organizations get access to a support system that shares their values and Kingdom-oriented mindset.\n\nAs we grow, we continue to add corporate partners to our network who share our vision of bringing a ministry mindset into all spheres of life. We believe God calls Kingdom-minded organizations to partner together to achieve greater impact.\n\n**Interested in a partnership? Fill out the form above and we'll start the conversation.**",
       "buttons": [
         {
-          "label": "Fill out the form",
+          "label": "Fill Out the Form",
           "href": "#form",
           "style": "primary"
         }
@@ -68,7 +68,7 @@
           "style": "primary"
         },
         {
-          "label": "See packages",
+          "label": "See Packages",
           "href": "/the-atrium#packages",
           "style": "secondary"
         }
@@ -81,7 +81,7 @@
       "body": "Partner with Vertical Life and join a community that shares your values and your Kingdom-oriented mindset.",
       "buttons": [
         {
-          "label": "Fill out the form",
+          "label": "Fill Out the Form",
           "href": "#form",
           "style": "primary"
         },

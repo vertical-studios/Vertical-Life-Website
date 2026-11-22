@@ -14,7 +14,7 @@
           "style": "primary"
         },
         {
-          "label": "Schedule a discovery call",
+          "label": "Schedule a Discovery Call",
           "href": "/contact",
           "style": "secondary"
         }
@@ -27,7 +27,7 @@
       "body": "Vertical Studios is the creative and marketing arm of Vertical Life. Businesses and nonprofits get strategy, design, content, websites and campaigns run by experienced marketers.\n\nBehind them, [Vertical Immersive](/vertical-immersive) apprentices handle production under direct supervision, doing real work with real stakes.",
       "buttons": [
         {
-          "label": "Explore the ecosystem",
+          "label": "Explore the Ecosystem",
           "href": "/ecosystem",
           "style": "secondary"
         }
@@ -67,7 +67,7 @@
       "body": "Empower the next generation while you grow. See services, past work and the team on the Vertical Studios site, or schedule a discovery call.",
       "buttons": [
         {
-          "label": "Schedule a discovery call",
+          "label": "Schedule a Discovery Call",
           "href": "/contact",
           "style": "primary"
         },

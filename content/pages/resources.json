@@ -11,12 +11,12 @@
       "imageAlt": "Vertical Life team members",
       "buttons": [
         {
-          "label": "Get the free tools",
+          "label": "Get the Free Tools",
           "href": "#downloads",
           "style": "primary"
         },
         {
-          "label": "Watch the podcast",
+          "label": "Watch the Podcast",
           "href": "#podcast",
           "style": "secondary"
         }
@@ -55,7 +55,7 @@
           "eyebrow": "Free download",
           "title": "Financial Stewardship",
           "body": "A Kingdom guide to managing money with margin, purpose and impact.",
-          "linkLabel": "Download the guide",
+          "linkLabel": "Download the Guide",
           "linkHref": "https://www.thevertical.life/s/Financial-Stewardship.pdf"
         }
       ]
@@ -98,7 +98,7 @@
       ],
       "buttons": [
         {
-          "label": "Read the blog",
+          "label": "Read the Blog",
           "href": "/blog",
           "style": "secondary"
         }
@@ -122,7 +122,7 @@
           "style": "primary"
         },
         {
-          "label": "Get involved",
+          "label": "Get Involved",
           "href": "/get-involved",
           "style": "secondary"
         }

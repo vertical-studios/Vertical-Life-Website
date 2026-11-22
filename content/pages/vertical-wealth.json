@@ -14,7 +14,7 @@
           "style": "primary"
         },
         {
-          "label": "Schedule a discovery call",
+          "label": "Schedule a Discovery Call",
           "href": "/contact",
           "style": "secondary"
         }
@@ -27,7 +27,7 @@
       "body": "Vertical Wealth is the financial planning arm of Vertical Life. Plenty of Christians want to give boldly but get stuck on old 401(k)s, taxes, college costs and the question nobody answers: how much is enough?\n\nVertical Wealth pairs professional planning with a biblical lens, so families can decide with confidence and put their resources to work for eternity.\n\n**The goal is a journey of growth, where clarity replaces confusion, purpose replaces fear and legacy replaces limitation.**",
       "buttons": [
         {
-          "label": "Explore the ecosystem",
+          "label": "Explore the Ecosystem",
           "href": "/ecosystem",
           "style": "secondary"
         }
@@ -67,7 +67,7 @@
       "body": "Explore services and meet the team on the Vertical Wealth site, or schedule a discovery call and start with a conversation.",
       "buttons": [
         {
-          "label": "Schedule a discovery call",
+          "label": "Schedule a Discovery Call",
           "href": "/contact",
           "style": "primary"
         },

@@ -11,12 +11,12 @@
       "imageAlt": "Vertical Life team members",
       "buttons": [
         {
-          "label": "Our values",
+          "label": "Our Values",
           "href": "#values",
           "style": "primary"
         },
         {
-          "label": "Explore the ecosystem",
+          "label": "Explore the Ecosystem",
           "href": "/ecosystem",
           "style": "secondary"
         }
@@ -142,7 +142,7 @@
           "style": "primary"
         },
         {
-          "label": "Get involved",
+          "label": "Get Involved",
           "href": "/get-involved",
           "style": "secondary"
         }

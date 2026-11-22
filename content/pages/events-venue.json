@@ -11,12 +11,12 @@
       "imageAlt": "The event space at the Atrium",
       "buttons": [
         {
-          "label": "See room rates",
+          "label": "See Room Rates",
           "href": "#rates",
           "style": "primary"
         },
         {
-          "label": "Ask about booking",
+          "label": "Ask About Booking",
           "href": "/contact",
           "style": "secondary"
         }
@@ -76,7 +76,7 @@
       "body": "The Atrium's event space is home to a church on Sundays. We expect to open it for event bookings in early 2027.\n\nPlanning something for next year? [Contact us](/contact) to ask about the event space, or book the performance space today for performances, events and large gatherings.",
       "buttons": [
         {
-          "label": "Ask about the event space",
+          "label": "Ask About the Event Space",
           "href": "/contact",
           "style": "secondary"
         }
@@ -116,7 +116,7 @@
       "body": "Tell us what you have in mind and we'll help you find the right room. Or come see the space for yourself first.",
       "buttons": [
         {
-          "label": "Ask about booking",
+          "label": "Ask About Booking",
           "href": "/contact",
           "style": "primary"
         },
