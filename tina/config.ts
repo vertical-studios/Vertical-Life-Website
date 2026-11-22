@@ -1,5 +1,5 @@
 import { defineConfig, type Template } from "tinacms";
-import { settingsFields } from "./family-settings";
+import { settingsFields, TITLE_CASE } from "./family-settings";
 
 // ---------------------------------------------------------------------------
 // BLOCK LIBRARY (Vertical Life)
@@ -22,7 +22,7 @@ const button = {
   type: "object" as const, name: "buttons", label: "Buttons", list: true,
   ui: { itemProps: (i: any) => ({ label: i?.label || "Button" }) },
   fields: [
-    { type: "string" as const, name: "label", label: "Label", required: true },
+    { type: "string" as const, name: "label", label: "Label", required: true, description: TITLE_CASE },
     { type: "string" as const, name: "href", label: "Link (e.g. /visit)", required: true },
     { type: "string" as const, name: "style", label: "Style", options: ["primary", "secondary"] },
   ],
@@ -32,7 +32,7 @@ const hero: Template = {
   name: "hero", label: "Hero (top of page)",
   ui: { defaultItem: { headline: "New headline", buttons: [] } },
   fields: [
-    { type: "string", name: "eyebrow", label: "Small yellow tag above the headline" },
+    { type: "string", name: "eyebrow", label: "Small yellow tag above the headline", description: TITLE_CASE },
     { type: "string", name: "headline", label: "Headline (six words or fewer)", required: true },
     { type: "string", name: "body", label: "Intro text", ui: { component: "textarea" } },
     { type: "image", name: "image", label: "Photo (shown in black and white)" },
@@ -52,7 +52,7 @@ const hub: Template = {
         { type: "string", name: "title", label: "Title", required: true },
         { type: "string", name: "text", label: "Text", ui: { component: "textarea" } },
         { type: "string", name: "href", label: "Link (e.g. /the-atrium)" },
-        { type: "string", name: "linkLabel", label: "Link label (default Explore)" },
+        { type: "string", name: "linkLabel", label: "Link label (default Explore)", description: TITLE_CASE },
         { type: "boolean", name: "highlight", label: "Highlight in yellow" },
       ],
     },
@@ -74,7 +74,7 @@ const pricing: Template = {
         { type: "string", name: "summary", label: "One-line summary" },
         { type: "string", name: "features", label: "What's included", list: true },
         { type: "boolean", name: "highlight", label: "Highlight in yellow" },
-        { type: "string", name: "buttonLabel", label: "Button label" },
+        { type: "string", name: "buttonLabel", label: "Button label", description: TITLE_CASE },
         { type: "string", name: "buttonHref", label: "Button link" },
       ],
     },
@@ -129,7 +129,7 @@ const cards: Template = {
         { type: "string", name: "eyebrow", label: "Small label above the title" },
         { type: "string", name: "title", label: "Title", required: true },
         { type: "string", name: "body", label: "Text (markdown allowed)", ui: { component: "textarea" } },
-        { type: "string", name: "linkLabel", label: "Link label" },
+        { type: "string", name: "linkLabel", label: "Link label", description: TITLE_CASE },
         { type: "string", name: "linkHref", label: "Link (e.g. /about)" },
       ],
     },
@@ -253,7 +253,7 @@ const link = (name: string, label: string, extra: any[] = []) => ({
   type: "object" as const, name, label, list: true,
   ui: { itemProps: (i: any) => ({ label: i?.label || "Link" }) },
   fields: [
-    { type: "string" as const, name: "label", label: "Label", required: true },
+    { type: "string" as const, name: "label", label: "Label", required: true, description: TITLE_CASE },
     { type: "string" as const, name: "href", label: "Link", required: true },
     ...extra,
   ],
