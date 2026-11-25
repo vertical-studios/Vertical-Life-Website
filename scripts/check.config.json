@@ -1,0 +1,12 @@
+{
+  "_note": "Site-only banned phrases and known exceptions for scripts/check.mjs. Family-wide rules live in check.mjs.",
+  "banned": [
+    "ecosytem",
+    "acheivement",
+    "training rooms?",
+    "members save 20",
+    "grow, build and lead vertically",
+    "higher plane"
+  ],
+  "allow": []
+}
